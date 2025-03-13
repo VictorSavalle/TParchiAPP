@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Messagerie</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Service de messagerie</h1>
+            <button id="changer-style">changer le style</button>
+        </header>
+
+        <main>
+            <div style="margin-bottom: 15px;">
+                <input type="text" id="server-url" placeholder="Entrez l'URL du serveur (ex: http://localhost:8080)" >
+                <button id="save-server-url">
+                    Enregistrer l'URL
+                </button>
+            </div>
+            <h2>messages</h2>
+            <ul id="message-list">
+                <li></li>
+            </ul>
+            
+            <h2>Poster un message</h2>
+            <input type="text" id="pseudo" placeholder="Votre Pseudo">
+            <textarea id="message-posté" placeholder="Ecrire votre message là"></textarea>
+            <button id="bouton_d'envoi">Envoyer</button> 
+            <button id="bouton_MAJ">Mise à jour</button> 
+        </main>
+        <script src="script.js"></script>
+
+    </body>
+</html>

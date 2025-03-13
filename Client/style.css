@@ -1,0 +1,93 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Titre principal */
+header {
+    background-color: black;
+    color: cadetblue;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Contenu principal */
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: darkcyan;
+    border-radius: 8px;
+}
+
+/* Liste des messages */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: darkslategray;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+/* Zone de texte et boutons */
+textarea {
+    width: 90%;
+    height: 80px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 5px;
+    resize: none;
+}
+
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Style pour le mode sombre */
+.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.dark-mode header {
+    background-color: #1f1f1f;
+}
+
+.dark-mode main {
+    background-color: #333333;
+}
+
+.dark-mode li {
+    background-color: #444444;
+}
