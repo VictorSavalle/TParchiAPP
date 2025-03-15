@@ -92,7 +92,7 @@ document.getElementById("bouton_d'envoi").addEventListener("click", function() {
 });
 
 // Récupérer l'URL du micro-service depuis le stockage local (ou utiliser une valeur par défaut)
-let serverUrl = localStorage.getItem("serverUrl") || "https://94949b39-31a7-463a-924e-83622b6e7094-00-30zchri2x26v0.spock.replit.dev";
+let serverUrl = localStorage.getItem("serverUrl") || "https://tparchiapp.onrender.com";
 
 // Met à jour l'input avec l'URL actuelle
 document.getElementById("server-url").value = serverUrl;
